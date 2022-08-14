@@ -13,5 +13,5 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите z2");
 int z2 = Convert.ToInt32(Console.ReadLine());
 
-double l = Math.Sqrt((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2);
+double l = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2));
 Console.WriteLine(l);
